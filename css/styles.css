@@ -34,7 +34,7 @@ header .jumbotron p {
 #locations {
     height: 280px;
 }
-#locations .row + .row {
+.info_text {
     letter-spacing: 5px;
     font-size: 14px;
 }
@@ -45,4 +45,21 @@ header .jumbotron p {
 .heading {
     font-size: 24px;
     letter-spacing: 4px;
+}
+/* MENU/SPECIALS */
+#menu {
+    background-color: var(--secondaryColor);
+}
+.specials_wrapper {
+    height: 280px;
+}
+.menu_plate::after {
+    content: " ......................................................... ";
+}
+img.icon {
+    width: 160px;
+}
+.desktop_wrapper,
+.mobile_wrapper {
+    min-height: 500px;
 }
