@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 :root {
-    --primaryFont: 'Open Sans', sans-serif;
-    --secondaryFont: 'Roboto', sans-serif;
     --primaryColor: #f8f8f8;
     --secondaryColor: #e5e5e5;
     --heavyColor: #c4c4c4;
 }
-
 body {
-    font-family: var(--primaryFont);
+    font-family: 'Roboto', sans-serif;
 }
-header nav,
-header h1 {
-    font-family: var(--secondaryFont);
+.section_heading {
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 17px;
 }
+/* HEADER */
 header, header .jumbotron {
     color: #000;
     background-color: var(--primaryColor);
 }
 header h1 {
     letter-spacing: 7px;
-    font-weight: 700;
 }
 header .jumbotron button {
     color: inherit;
@@ -31,4 +29,12 @@ header .jumbotron button {
 }
 header .jumbotron p {
     max-width: 700px;
+}
+/* LOCATIONS */
+#locations {
+    height: 280px;
+}
+#locations .row + .row {
+    letter-spacing: 5px;
+    font-size: 14px;
 }
