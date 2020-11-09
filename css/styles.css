@@ -38,3 +38,11 @@ header .jumbotron p {
     letter-spacing: 5px;
     font-size: 14px;
 }
+/* TEXT SECTION */
+.text_wrapper {
+    height: 380px;
+}
+.heading {
+    font-size: 24px;
+    letter-spacing: 4px;
+}
