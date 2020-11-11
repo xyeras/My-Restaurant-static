@@ -37,7 +37,9 @@
           <div class="row">
             <div class="col-md-12 d-flex justify-content-md-between align-items-end px-5">
               <button class="btn text-uppercase rounded font-weight-bold rounded-pill mx-4 px-4">text</button>
-              <p class="text-wrap text-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam voluptates voluptatem maxime, explicabo esse mollitia ex asperiores voluptatibus. Optio repellat odio enim cupiditate sequi fuga.</p>
+              <p class="text-wrap text-right d-none d-md-block d-lg-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam voluptates voluptatem maxime, explicabo esse mollitia ex asperiores voluptatibus. Optio repellat odio enim cupiditate sequi fuga.</p>
+              <!-- for mobile -->
+              <p class="text-right d-md-none d-lg-none d-block d-sm-block">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
           </div>
         </div>
@@ -181,14 +183,24 @@
           </div>
         </div>
         <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-          <p class="info_text font-weight-bold text-uppercase">Office</p>
+          <div class="row">
+            <div class="col">
+              <p class="info_text font-weight-bold text-uppercase">Office</p>
           <address>
             321 S. Dream, <span class="info_text text-uppercase ml-1">Kerman, Ca</span>
           </address>
           <p class="font-weight-bold">559-900-0990</p>
           <p class="info_text font-weight-bold">pretend@email.com</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.6089629564785!2d-119.78801758442442!3d36.731951579237666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4340503%3A0xb32dda71cf0730a0!2sBitwise%20South%20Stadium!5e0!3m2!1sen!2sus!4v1605059062332!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
         </div>
       </div>
+      
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->

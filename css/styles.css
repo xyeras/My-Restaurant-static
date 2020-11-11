@@ -40,7 +40,7 @@ header .jumbotron p {
 }
 /* TEXT SECTION */
 .text_wrapper {
-    height: 380px;
+    min-height: 380px;
 }
 .heading {
     font-size: 24px;
